@@ -1,0 +1,55 @@
+/*
+#   _     _  ___   ___                          
+#  | | _ | ||   | |   |                         
+#  | || || ||   | |   |                         
+#  |       ||   | |   |                         
+#  |       ||   | |   |___                      
+#  |   _   ||   | |       |                     
+#  |__| |__||___| |_______|                     
+#   __   __  _______  __   __                   
+#  |  |_|  ||       ||  | |  |                  
+#  |       ||  _____||  |_|  |                  
+#  |       || |_____ |       |                  
+#  |       ||_____  ||       |                  
+#  | ||_|| | _____| ||   _   |                  
+#  |_|   |_||_______||__| |__|                  
+#   __   __  ______    _______  _______         
+#  |  | |  ||    _ |  |       ||       |        
+#  |  | |  ||   | ||  |  _____||_     _|        
+#  |  |_|  ||   |_||_ | |_____   |   |          
+#  |       ||    __  ||_____  |  |   |          
+#  |       ||   |  | | _____| |  |   |   _____  
+#  |_______||___|  |_||_______|  |___|  |_____| 
+#
+# INIT v3.2
+*/
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./variables";
+
+// Then add additional custom code here
+
+html,
+body {
+  background-color: $brand-grey;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  h1 {
+      color: $white;
+  }
+}
